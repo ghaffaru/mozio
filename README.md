@@ -21,3 +21,8 @@ http://localhost:8000
 ```
 https://documenter.getpostman.com/view/6347827/UVsSL2tw
 ```
+
+## Live Url
+```
+http://mozio.thamid.com
+```

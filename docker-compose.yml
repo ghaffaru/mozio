@@ -1,16 +1,15 @@
 version: '3.2'
 services:
   db:
-    image: postgres
+    image: kartoza/postgis
     environment:
       - POSTGRES_HOST_AUTH_METHOD=trust
       - POSTGRES_DB=mozio
       - POSTGRES_USER=ghaff
-      - POSTGRES_PASSWORD=engineer
+      - POSTGRES_PASS=engineer
 
     ports:
       - "5434:5432"
-
 
   web:
     build: .

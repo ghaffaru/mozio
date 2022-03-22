@@ -12,6 +12,11 @@ docker-compose build
 docker-compose up
 ```
 
+## Run the test
+```
+docker-compose run web python mozio/manage.py test app
+```
+
 ## Use the url to hit the endpoints
 ```
 http://localhost:8000
